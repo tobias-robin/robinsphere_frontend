@@ -1,6 +1,28 @@
-# Getting Started with Create React App
+# RobinSphere - Dashboard for Support Team
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This web application is designed for the support team at Robin to manage and interact with organization accounts, employees, spaces, and desks within the platform. The goal is to provide an intuitive and modern interface for the team to efficiently manage multiple accounts, view detailed information, and perform administrative tasks.
+
+![Alt text](public/accountspg.png)
+![Alt text](public/accountpg2.png)
+
+
+## Key Features
+
+- Account Overview:
+    - Display key details about each account such as the organization name, email, role, and the account’s creation date.
+- Tabbed Navigation for Hierarchical Data:
+    - **Employees**: A list of all employees in an account, showing their name, email, role, and join date.
+    - **Spaces**: A list of workspaces or areas within the organization that are available, showing their name and when they were created.
+
+    - **Desks**: A list of desks or workstations, with information on their name and creation date.
+- Searchable Data Tables:
+    - The support team can easily search for accounts, employees, or spaces by name, email, or ID. The tables support efficient viewing of data and quick navigation to detailed views.
+- Account Specific Details:
+    - Clicking on any item (such as an employee or desk) will bring up further detailed information on that specific record.
+
 
 ## Available Scripts
 
@@ -39,32 +61,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
